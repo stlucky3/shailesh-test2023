@@ -8,6 +8,7 @@ Tested with
 * Maven
 
 ## How to run this?
+```bash
 $ git clone https://github.com/stlucky3/shailesh-test2023.git
 $ cd shailesh-test2023/
 $ mvn --version
@@ -24,3 +25,4 @@ $ sudo docker build -t spring-boot:1.0 .
 $ sudo docker run -d -p 8080:8080 -t spring-boot:1.0
 
   access http://localhost:8080
+```
