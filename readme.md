@@ -1,6 +1,5 @@
-## What is it?
-This source code is an Spring Boot web application (mvc + thymeleaf).
- 
+This source code is an Spring Boot web application
+
 Tested with
 * Docker 19.03
 * Ubuntu 19
@@ -8,12 +7,10 @@ Tested with
 * Spring Boot 2.2.4.RELEASE
 * Maven
 
-For explanation, please visit this article - [Docker and Spring Boot](https://mkyong.com/docker/docker-spring-boot-examples/)
-
 ## How to run this?
-```bash
-$ git clone https://github.com/mkyong/docker-java
-$ cd docker-spring-boot
+$ git clone https://github.com/stlucky3/shailesh-test2023.git
+$ cd shailesh-test2023/
+$ mvn --version
 $ mvn clean package
 $ java -jar target/spring-boot-web.jar
 
@@ -27,4 +24,3 @@ $ sudo docker build -t spring-boot:1.0 .
 $ sudo docker run -d -p 8080:8080 -t spring-boot:1.0
 
   access http://localhost:8080
-```
